@@ -11,7 +11,7 @@ img {
 }
 
 body {
-        font-family: sans-serif;
+        font-family: 'Montserrat' sans-serif;
         display: grid;
         grid-gap: 0.5em;
     hyphens: auto; 
