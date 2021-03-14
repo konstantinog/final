@@ -16,7 +16,7 @@ nav {
 
 /* Ankertag/links bearbeiten */
 a {
-    color: white;
+    color: lightpink;
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ a {
 /* hover fuer alle Items anwenden die keine buttons sind */
 .item:not(.button) a:hover,
 .item a:hover::after {
-    color: #ccc;
+    color: lightpink;
 }
 
 /* Menueansicht fuer mobile Ansicht */
