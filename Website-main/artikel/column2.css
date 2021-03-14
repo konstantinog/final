@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@1,200&display=swap');
+
+img {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.smallImage{
+    min-width: 10%;
+    max-width: 20%;
+}
+
+body {
+        font-family: sans-serif;
+        display: grid;
+        grid-gap: 0.5em;
+    hyphens: auto; 
+    text-align: justify
+}
+
+.menu a {
+    color:blueviolet;
+    padding: 18px;
+}
+
+.menu a:hover{
+    color:cornflowerblue;
+}
+
+article {
+    column-width: 25em;
+    page-break-inside:inherit;
+    page-break-after:avoid;
+  height: 100%;
+    width:auto; 
+    border: 20px solid lightpink;
+    padding: 1em;
+    column-count: 2;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+
+}
+
+/Default CSS layout for narrow screens/
+@media (min-width: 800px) {
+  /CSS for wide screens/
+}
+
+@media (min-width: 1100px) {
+  /CSS for really wide screens/
+
+@media (max-width: 200px) {
+  /CSS for small screens/
+}
+@media (max-width: 480px) {
+  /CSS for medium width screens/
+}
+@mediaquery   
+figure{
+    max-width:100%;
+    max-height: 100%;
+ }
+
+table, th,td{
+    border:1px solid black;
+    }
+    
+    
+*/....................../*
+h1{
+    max-width: 100%;
+    min-width: 25%;
+}
+body{
+        font-family: sans-serif;
+        display: grid;
+        grid-gap: 0.5em;
+        
+    }
+
+figure{
+    max-width:100%;
+    max-height: 100%;
+}
+img{
+    min-width: 25%;
+    max-width: 25%;
+
+}
+.flexbox {
+    display: flex;
+    border: 2px solid #333;
+    flex-direction: row;
+    max-width: 100%;
+    min-width: 100%;
+    box-sizing: 50%;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.box-01 {
+    max-width: 50%;
+        border: 2px solid #333
+}
+.box-02 {
+    max-width: 50%;
+        border: 2px solid #333
+            
+}
+/Default CSS layout for narrow screens/
+@media (max-width: 480px) {
+  /CSS for medium width screens/
+}
+
+@media (min-width: 800px) {
+  /CSS for wide screens/
+}
+
+@media (min-width: 1100px) {
+  /CSS for really wide screens/
+    
+     .menu a {
+        color:black;
+        padding: 15px;
+        
+    }
+    .menu a:hover{
+        color:cornflowerblue;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    
+*/./*  
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow:inherit;
+  background-color:aquamarine;
+}
+
+    .nav li {
+	display:block;
+	width:120px;
+	float:right;
+	margin-left:2px;
+	border:0;}
+    
+    div {width:1000px;
+        column-count: 400px;
+        	box-shadow: 10px 10px 10px 15px grey;
+        
+    }
+    
+    h1 {
+        column-span:all
+    }
+    
+    
+    
+    
+    article, nav table{background-color:antiquewhite;}
+ts{border:1px solid gray}
+    
+width, padding, margin, border, color, background, font-family, font-size, font-weight, line-height, float, display
