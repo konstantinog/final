@@ -50,7 +50,6 @@ a {
 
 /* Menueansicht fuer mobile Ansicht */
 .menu {
-    
     display: flex;
     
     /* mobile Menueansicht untereinander */
@@ -90,7 +89,7 @@ a {
     width: 100%;
     text-align: center;
     
-    /* vorlaeufig Items ausblenden */
+    /* Items ausblenden */
     display: none;
 }
 
