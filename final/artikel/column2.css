@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
+body {
+    font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-gap: 0.5em;
+    hyphens: auto; 
+    text-align: justify
+}
+
+/*importierter google font*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+
+/*font angewedet auf ueberschriften*/
+h1, h3, h4, h5, h6, ul {
+    font-family: 'PT Sans Caption', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
 img {
     min-width: 100%;
     max-width: 100%;
@@ -10,18 +28,11 @@ img {
     max-width: 20%;
 }
 
-body {
-        font-family: 'Raleway', sans-serif;
-        display: grid;
-        grid-gap: 0.5em;
-    hyphens: auto; 
-    text-align: justify
-}
-
+*/ siehe zeile 15, geht das so mit ul drin???????????????/*
 h1,h2,h3,h4,h5,ul {
      margin-top: 10px;
      margin-bottom: 5px;
-    }
+    }*/
 
 .menu a {
     color:blueviolet;
