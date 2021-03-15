@@ -28,6 +28,16 @@ img {
     max-width: 20%;
 }
 
+*/muss noch ausprobieren ob es auch so funktioniert wie erhofft :)/*
+figcaption {
+    font-weight:100;
+    font-size: 13px;
+}
+
+figcaption i a{
+    color: #ff98cc;
+}*/
+
 */ siehe zeile 15, geht das so mit ul drin???????????????/*
 h1,h2,h3,h4,h5,ul {
      margin-top: 10px;
